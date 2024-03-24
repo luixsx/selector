@@ -1,0 +1,41 @@
+.fresca-regular{
+    font-family: "Fresca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{
+    font-family: Fresca,sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/website-html-code-browser-view-printed-white-paper-closeup-view_211682-164.jpg?w=996&t=st=1711146905~exp=1711147505~hmac=0357eab4da268fbe6ba50cf5e1647ca45452460aa8287aa1c0368bf54df98629);
+  }
+
+  th:hover{
+    background-color: lime;
+  }
+
+.modus:hover{
+    background-color: lime;
+  }
+
+td{
+    padding: 10px;
+  }
+
+th{
+    padding: 10px;
+  }
+
+ h1, h2, p{
+    text-align: center;
+    margin: 3px;
+  }
+
+table {
+    width: 800px;
+    margin: 0 auto;
+    background-color:#AED6D7;
+      }
+
+h6 {
+    margin-left: 5px;
+   }

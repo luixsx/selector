@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS SELECTORS AND SPECIFICITY</title>
+        <link href="./styles.css" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+<!--introduction-->
+<header>
+    <h1>CSS SELECTORS AND SPECIFICITY</h1>
+    <p>It is the beginning of the set of rules for identifying the element to which to apply the desired style.</p>
+</header>
+
+ <br>
+
+<!--selectors table-->
+<h2>SELECTORS</h2>
+<br>
+<table width= "800" border="1">
+   <tr>
+     <th scope="row">TYPE SELECTOR</th>
+     <td>corresponds to the type of element to apply the style to, it is called with the name of the element's tag or selector</td>
+    </tr>
+    <tr>
+      <th scope="row">UNIVERSAL SELECTOR</th>
+      <td>as the name suggests select elements of any type, use <strong>*</strong> before the bracket {</td>
+    </tr>
+    <tr>
+      <th scope="row">CLASS SELECTOR</th>
+      <td>we use a <strong>class=</strong> attribute to the HTML code, and in the CSS sheet we write a period ( . ) followed by the value given to the attribute</td>
+    </tr>
+    <tr>
+      <th scope="row">MULTIPLE CLASS</th>
+      <td>we can add more classes by separating the attributes with a space <strong>( .attribute1 .attribute2 )</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">ID SELECTOR</th>
+      <td>to give an element a unique style, we give the <strong>id= attribute</strong> in our HTML sheet, while in the css sheet we put # before the name of the ID</td>
+    </tr>
+    <tr>
+      <th scope="row">ATTRIBUTE SELECTOR</th>
+      <td>you can directly select an attribute by placing it directly between <strong>[example]</strong> or <strong>type[attribute*=value]</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">PSEUDO CLASS</th>
+      <td>the appearance of some elements changes with user interaction. this allows a pseudo-class that can be connected to any selector. just put i <strong>:</strong> after the selector followed by the appropriate name (example: hover { )</td>
+    </tr>
+    <tr>
+      <th scope="row">MULTIPLE SELECTORS</th>
+      <td>to add styles to multiple selectors at the same time just separate the selectors with a comma <strong>,</strong></td>
+   </tr>
+   </table>
+   <br>
+
+<!--SPECIFICITY-->
+<h2>SPECIFICITY</h2>
+<br>
+<p>Specificity is the order in which the browser decides which CSS styles are displayed. A better practice is to style elements using the lowest degree of specificity. ID is the most specific selector, followed by classes, and finally type selectors. In this order it will be displayed and given priority by the browser during reading.</p>
+<br>
+<table width= "500" border="1">
+    <tr>
+        <td>type</td>
+        <td>classes</td>
+        <td>id</td>
+        <td class="modus"><strong>BEST MODUS OPERANDI</strong></td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>classes</td>
+        <td>type</td>
+        <td class="modus"><strong>STYLE PRIORITY</strong></td>
+    </tr>
+</table>
+<br>
+<footer>
+    <h6>written by luisx97, "my first code"</h6>
+</footer>
+   
+
+
+    </body>
+</html>
